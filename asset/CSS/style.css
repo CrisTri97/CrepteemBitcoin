@@ -275,7 +275,8 @@
 .fun {
   background-color: #02155f;
   padding-top: 130px;
-  padding-bottom: 110px;
+  padding-bottom: 130px;
+  
 }
 
 .fun-title {
@@ -346,7 +347,7 @@
 .soft-text-3m {
   position: absolute;
   font-size: 1.4rem;
-  opacity: .6;
+  opacity: 0.6;
   bottom: -20px;
   left: 29%;
 }
@@ -354,46 +355,66 @@
 .soft-text-3m::after {
   content: "";
   border-right: 2px dashed #666;
-    position: absolute;
-    top: -53px;
-    background: none;
-    height: 48px;
-    left: 50%;
+  position: absolute;
+  top: -53px;
+  background: none;
+  height: 48px;
+  left: 50%;
 }
 .icon-down {
   color: #ffc100;
-    position: absolute;
-    top: 2px;
-    left: 48%;
-    transform: translateX(-50%);
-    
-    margin-left: 1px;
+  position: absolute;
+  top: 2px;
+  left: 48%;
+  transform: translateX(-50%);
+
+  margin-left: 1px;
 }
-.hard-cap{
+.hard-cap {
   position: absolute;
   color: white;
   font-size: 1.6rem;
-  top: 6px;
+  top: 20px;
   right: 8%;
 }
 .hard-cap-text {
-
 }
 .hard-icon-down {
   color: #ffc100;
   position: absolute;
   top: 2px;
-  right: 48%;
+  right: 21%;
   transform: translateX(-50%);
-  
   margin-left: 1px;
 }
 .hard-wrap {
-
-}
-.hard-text-token {
-
 }
 .hard-text-3m {
+  position: absolute;
+  font-size: 1.4rem;
+  opacity: 0.6;
+  bottom: -74px;
+  right: 30%;
+}
 
+.hard-text-3m::after {
+  content: "";
+  border-right: 2px dashed #666;
+  position: absolute;
+  top: -53px;
+  background: none;
+  height: 48px;
+  right: 50%;
+}
+
+/* Team */
+.team {
+  width: 100%;
+  height: auto;
+  background-image: url("http://104.131.177.38/demo/creptaam/ico-landing-dark/wp-content/uploads/sites/5/2018/03/team-bg-dark.jpg?id=80");
+  background-repeat: repeat-y;
+  padding: 100px 0;
+}
+.team-header {
+  text-align: center;
 }
