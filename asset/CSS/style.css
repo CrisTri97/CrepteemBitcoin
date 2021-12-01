@@ -417,4 +417,74 @@
 }
 .team-header {
   text-align: center;
+  color: white;
+  font-size: 3.4rem;
+  line-height: 5rem;
+  padding-bottom: 20px;
+}
+.team-description {
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 2rem;
+  line-height: 3rem;
+  width: 70%;
+  padding-bottom: 100px;
+}
+.team-row-img {
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+.team-all {
+  margin-bottom: 16px;
+}
+
+.team-all:hover .team-contact {
+  visibility: visible;
+  opacity: 1;
+  letter-spacing: 1px;
+  height: 60px;
+}
+.team-contact {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  height: 0px;
+  background-color: #ffc100;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  justify-content: center;
+  visibility: hidden;
+  letter-spacing: 15px;
+  transition:  .3s;
+  opacity: 0;
+}
+
+.team-info {
+  padding-top: 5px;
+  color: white;
+}
+
+.team-info-name {
+  font-size: 2rem;
+  line-height: 4rem;
+  text-align: center;
+}
+.team-info-position {
+font-size: 1.6rem;
+line-height: 3rem;
+text-align: center;
+width: 100%;
+display: block;
+opacity: .9;
+}
+
+.team-line {
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid rgba(34,59,151,.8);
 }
