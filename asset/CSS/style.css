@@ -85,7 +85,7 @@
 
 /* Content */
 .content {
-    overflow: hidden;
+  overflow: hidden;
   margin-top: var(--nav-height);
   width: 100%;
   height: 610px;
@@ -136,42 +136,41 @@
 }
 /* About */
 .about {
-    background-image: url("http://104.131.177.38/demo/creptaam/ico-landing-dark/wp-content/uploads/sites/5/2018/03/dark-paralax.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    padding: 100px 0;
+  background-image: url("http://104.131.177.38/demo/creptaam/ico-landing-dark/wp-content/uploads/sites/5/2018/03/dark-paralax.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 100px 0;
   width: 100%;
   height: 610px;
   background-color: var(--primary-color);
 }
 .des-about {
-    font-size: 3rem;
-    color: white;
-    font-weight: 600;
-    line-height: 4rem;
+  font-size: 3rem;
+  color: white;
+  font-weight: 600;
+  line-height: 4rem;
 }
 .des-about--full {
-    margin-top: 50px;
-    color: white;
-    font-size: 1.8rem;
-    line-height: 3rem;
+  margin-top: 50px;
+  color: white;
+  font-size: 1.8rem;
+  line-height: 3rem;
 }
 .about-video {
-    width: 90%;
-    height: 300px;
-    border: 10px solid white;
-    border-radius: 20px;
-    background-image: url("http://104.131.177.38/demo/creptaam/ico-landing-dark/wp-content/uploads/sites/5/2018/04/video-bg.jpg");
-
+  width: 90%;
+  height: 300px;
+  border: 10px solid white;
+  border-radius: 20px;
+  background-image: url("http://104.131.177.38/demo/creptaam/ico-landing-dark/wp-content/uploads/sites/5/2018/04/video-bg.jpg");
 }
 
 /* Promotion */
 .promotion {
-    width: 100%;
-   
-    background-color: var(--primary-color);
-    display: block;
-    padding-bottom: 100px;
+  width: 100%;
+
+  background-color: var(--primary-color);
+  display: block;
+  padding-bottom: 100px;
 }
 
 .promotion-list {
@@ -183,8 +182,8 @@
 .promotion-item {
   height: 570px;
   width: 33.333%;
- text-align: center;
- padding: 60px 20px;
+  text-align: center;
+  padding: 60px 20px;
 }
 .promotion-item:nth-child(1) {
   background-color: #069aff;
@@ -197,7 +196,7 @@
 }
 
 .promotion-item--img {
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 .promotion-item:hover .promotion-item--img {
   transform: scale(1.2);
@@ -228,10 +227,10 @@
 
 .market-header {
   font-size: 3rem;
-    color: white;
-    font-weight: 600;
-    line-height: 4rem;
-    margin-bottom: 20px;
+  color: white;
+  font-weight: 600;
+  line-height: 4rem;
+  margin-bottom: 20px;
 }
 
 .promotion-wrap {
@@ -241,7 +240,6 @@
 }
 .promotion-wrap:last-child {
   margin-top: 10px;
-    
 }
 
 .promotion-btn {
@@ -252,8 +250,8 @@
   border-radius: 30px;
   width: fit-content;
   padding: 20px;
-  margin-top:30px;
-  transition:.5s;
+  margin-top: 30px;
+  transition: 0.5s;
   text-align: center;
   align-items: center;
   cursor: pointer;
@@ -275,7 +273,7 @@
 
 /* Fun Rised */
 .fun {
-  background-color: #02155F;
+  background-color: #02155f;
   padding-top: 130px;
   padding-bottom: 110px;
 }
@@ -296,34 +294,106 @@
 
 .progress-bar {
   width: 100%;
- position: relative;
- height: 85px;
- display: flex;
- justify-content: center;
- align-items: center;
+  position: relative;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .progress-cl {
-width: 90%;
-height: 20px;
-background-color: #999;
-align-items: center;
-border-radius: 20px;
-border: 1px solid #999;
-overflow: hidden;
-bottom: 14px;
-position: absolute;
+  width: 90%;
+  height: 20px;
+  background-color: #999;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #999;
+  overflow: hidden;
+  bottom: 14px;
+  position: absolute;
 }
 .progress-small {
-  
   bottom: 14px;
   left: 28px;
   position: absolute;
   width: 50%;
-height: 20px;
-background-image:linear-gradient(to right, red , yellow);
-align-items: center;
-border-top-left-radius: 20px;
-border-bottom-left-radius: 20px;
-border:none;
-overflow: hidden;
+  height: 20px;
+  background-image: linear-gradient(to right, red, yellow);
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  overflow: hidden;
+}
+.soft-cap-text {
+  position: absolute;
+  color: white;
+  font-size: 1.6rem;
+  top: 20px;
+  left: 25%;
+}
+
+.soft-wrap {
+  display: flex;
+  color: white;
+}
+
+.soft-text-token {
+  position: absolute;
+  font-size: 1.6rem;
+  bottom: -20px;
+  left: 18%;
+}
+.soft-text-3m {
+  position: absolute;
+  font-size: 1.4rem;
+  opacity: .6;
+  bottom: -20px;
+  left: 29%;
+}
+
+.soft-text-3m::after {
+  content: "";
+  border-right: 2px dashed #666;
+    position: absolute;
+    top: -53px;
+    background: none;
+    height: 48px;
+    left: 50%;
+}
+.icon-down {
+  color: #ffc100;
+    position: absolute;
+    top: 2px;
+    left: 48%;
+    transform: translateX(-50%);
+    
+    margin-left: 1px;
+}
+.hard-cap{
+  position: absolute;
+  color: white;
+  font-size: 1.6rem;
+  top: 6px;
+  right: 8%;
+}
+.hard-cap-text {
+
+}
+.hard-icon-down {
+  color: #ffc100;
+  position: absolute;
+  top: 2px;
+  right: 48%;
+  transform: translateX(-50%);
+  
+  margin-left: 1px;
+}
+.hard-wrap {
+
+}
+.hard-text-token {
+
+}
+.hard-text-3m {
+
 }
