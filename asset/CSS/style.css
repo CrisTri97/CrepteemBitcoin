@@ -295,15 +295,35 @@
 }
 
 .progress-bar {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+ position: relative;
+ height: 85px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
-.progressbar-cl {
+.progress-cl {
 width: 90%;
 height: 20px;
-background-image:linear-gradient(to right, red , yellow);
+background-color: #999;
 align-items: center;
 border-radius: 20px;
 border: 1px solid #999;
+overflow: hidden;
+bottom: 14px;
+position: absolute;
+}
+.progress-small {
+  
+  bottom: 14px;
+  left: 28px;
+  position: absolute;
+  width: 50%;
+height: 20px;
+background-image:linear-gradient(to right, red , yellow);
+align-items: center;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border:none;
 overflow: hidden;
 }
