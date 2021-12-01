@@ -1,0 +1,16 @@
+:root {
+  --nav-color: #02257a;
+  --primary-color: #02186b;
+  --promotion-color: #02155f;
+  --nav-height: 90px;
+}
+* {
+  box-sizing: inherit;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  line-height: 1rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
