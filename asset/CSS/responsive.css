@@ -1,5 +1,8 @@
 /* Mobile & Tablet */
 @media (max-width: 1023px) {
+  .promotion-item--des {
+    font-size: 1.6rem;
+  }
   .nav__list {
     display: none;
   }
