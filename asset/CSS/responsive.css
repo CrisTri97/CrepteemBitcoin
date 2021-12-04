@@ -41,6 +41,9 @@
   .section-token {
     margin-top: 30px;
   }
+  .about {
+    height: auto;
+  }
 }
 
 /* Tablet */
