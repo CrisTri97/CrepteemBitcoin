@@ -376,6 +376,7 @@
   text-align: center;
   align-items: center;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .promotion-btn:hover {
@@ -874,7 +875,9 @@
   text-decoration: none;
   color: white;
 }
-
+.footer-item__link:active {
+  color: #ffc100;
+}
 .footer-list__icon {
   list-style: none;
   margin: 0;

@@ -24,8 +24,12 @@
   .promotion {
     margin-top: 150px;
   }
+  .globe-img {
+    display: none;
+  }
   .promotion-item {
     margin-top: 20px;
+    height: auto;
   }
   .fun-title,
   .fun-des {
@@ -42,12 +46,29 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+  
+  .content {
+    height: auto;
+    padding-bottom: 100px;
+  }
+  .soft-text-token {
+    left:5%;
+  }
+  .icon-down {
+    transform: translateX(-93%);
+  }
     .footer-list__icon {
         flex-wrap: wrap;
     }
     .footer-up__icon {
-        transform: translate(-50% ,-50%);
+        /* transform: translate(-50% ,-50%); */
     }
+    .footer-item {
+      padding-top: 15px ;
+      font-size: 1.2rem;
+      
+    }
+    
     .footer-list {
         display: inline-block;
     }
@@ -56,6 +77,10 @@
     }
     .question-tab p {
         font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+    .icon-link {
+      transform: translateY(50%);
     }
     .progress-small {
         left: 16px;
@@ -80,27 +105,54 @@
     margin-bottom: 30px;
   }
   .content-btn {
+    display: block;
     margin: auto;
+    width: 400px;
+    height: auto;
+    align-items: center;
+  }
+  .content-btn a {
+    font-size: 1.2rem;
+    
   }
   .container-app {
     text-align: center;
   }
-  .nav,
+  .nav {
+    height: 70px;
+  }
   .nav-bar {
     height: 70px;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 5px;
     overflow: hidden;
+
   }
   .nav__img-logo {
     transform: unset;
+    align-items: center;
+    width: 200px;
   }
   .tablet-mobile__nav {
-    height: 70px;
+    
     align-items: center;
-    line-height: 70px;
+    height: 70px;
     text-align: center;
-    transform: translateY(-20%);
+    transform: translateY(-50%);
+    
+  }
+  .chb-input:checked ~.search {
+    transform: translateX(0%);
+  }
+  .input__search-checkbox {
+    flex: 0 0 265px;
+  }
+  .search {
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 40px;
   }
   @keyframes mobileSearchSideIn {
     from {
