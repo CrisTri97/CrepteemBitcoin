@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./asset/CSS/style.css">
     <link rel="stylesheet" href="./asset/CSS/base.css">
     <link rel="stylesheet" href="./asset/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./asset/CSS/responsive.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>CrepTaamBitCoin</title>
 </head>
@@ -54,28 +55,70 @@
                                         ICO Landing
                                     </a>
                                 </li>
-                                    </a>
-                                </li>
-                                <li class="item-drop-down">
-                                    <a href="" class="item-drop-down__link">
-                                        ICO Landing Creative
-                                    </a>
-                                </li>
-                            </ul>
+                                </a>
+                        </li>
+                        <li class="item-drop-down">
+                            <a href="" class="item-drop-down__link">
+                                ICO Landing Creative
+                            </a>
                         </li>
                     </ul>
+                    </li>
+                    </ul>
+                    <div class="tablet-mobile__nav">
+                        <label for="input-search" class="img-search">
+                            <i class="search-icon fas fa-search"></i>
+                        </label>
+                        <label for="nav-check-mb" class="mb-bar">
+                            <i class="icon-bar__mobile-tablet fas fa-bars"></i>
+                        </label>
+                        
+                    </div>
 
-                    <label for="input-search" class="img-search">
-                        <i class="search-icon fas fa-search"></i>
-                    </label>
+                   
 
                 </div>
             </div>
+            <!-- checkbox on off canvas menu -->
+            <input type="checkbox" name="" id="nav-check-mb" hidden class="checkbox-mb">
+            <!-- checkbox on off search bar -->
             <input type="checkbox" hidden class="chb-input" name="" id="input-search">
             <div class="search">
                 <input type="text" name="" id="" class="input__search-checkbox" placeholder="Search">
                 <i class="input__search-icon fas fa-search"></i>
             </div>
+            <!-- Overlay on mobile tablet -->
+            <label for="nav-check-mb" class="nav__overlay"></label>
+           <!-- menu on mobile and tablet -->
+            <div class="nav-mobile-tablet">
+                <label for="nav-check-mb" class="nav-mobile-tablet__close">
+                    <i class="fas fa-times"></i>
+                </label>
+                <ul class="nav-mobile-tablet__list">
+                    <li class="nav-mobile-tablet__item">
+                        <a href="" class="nav-mobile-tablet__item-link">HOME</a>
+                    </li>
+                    <li class="nav-mobile-tablet__item">
+                        <a href="" class="nav-mobile-tablet__item-link">ABOUT</a>
+                    </li>
+                    <li class="nav-mobile-tablet__item">
+                        <a href="" class="nav-mobile-tablet__item-link">PROMOTIONS</a>
+                    </li>
+                    <li class="nav-mobile-tablet__item">
+                        <a href="" class="nav-mobile-tablet__item-link">FUND RAISED</a>
+                    </li>
+                    <li class="nav-mobile-tablet__item">
+                        <a href="" class="nav-mobile-tablet__item-link">TEAM</a>
+                    </li>
+                    <li class="nav-mobile-tablet__item">
+                        <a href="" class="nav-mobile-tablet__item-link">SERVIDES</a>
+                    </li>
+                    <li class="nav-mobile-tablet__item">
+                        <a href="" class="nav-mobile-tablet__item-link">DEMO</a>
+                    </li>
+                </ul>
+            </div>
+           
         </div>
 
 
@@ -83,7 +126,7 @@
         <div class="content">
             <div class="grid wide">
                 <div class="row">
-                    <div class="col l-5">
+                    <div class="col l-5 m-12 c-12">
                         <p class="des-wrap">
                             Well Research Niche Based ICO Startup Agency Website.
                         </p>
@@ -96,7 +139,7 @@
                             <a href="">TOKEN DISTRUBUTION</a>
                         </div>
                     </div>
-                    <div class=" col l-7">
+                    <div class=" col l-7 m-0 c-0">
                         <img src="./asset/img/landing-page-bg.png" alt="" class="content-img">
                     </div>
                 </div>
@@ -106,7 +149,7 @@
         <div class="about">
             <div class="grid wide">
                 <div class="row">
-                    <div class="col l-5">
+                    <div class="col l-5 m-6 c-12">
                         <p class="des-about">
                             Guidelines For ICO & Bitcoin Cartridge Refill
                         </p>
@@ -122,7 +165,7 @@
 
 
                     </div>
-                    <div class=" col l-7">
+                    <div class=" col l-7 m-6 c-12">
                         <iframe class="about-video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
                         </iframe>
 
@@ -135,7 +178,7 @@
             <div class="grid wide">
 
                 <ul class=" row promotion-list">
-                    <li class="promotion-item">
+                    <li class="promotion-item col m-6 c-12">
 
                         <img class="promotion-item--img" src="./asset/img/1-1.png" alt="">
                         <h3 class="promotion-item--header">
@@ -146,7 +189,7 @@
                             Authoritatively transform maintainable architectures whereas enterprise.
                         </p>
                     </li>
-                    <li class="promotion-item">
+                    <li class="promotion-item col m-6 c-12">
 
                         <img class="promotion-item--img" src="./asset/img/icon-1.png" alt="">
                         <h3 class="promotion-item--header">
@@ -157,7 +200,7 @@
                             Authoritatively transform maintainable architectures whereas enterprise.
                         </p>
                     </li>
-                    <li class="promotion-item">
+                    <li class="promotion-item col m-6 m-o-3 c-12">
 
                         <img class="promotion-item--img" src="./asset/img/3-1.png" alt="">
                         <h3 class="promotion-item--header">
@@ -173,10 +216,10 @@
             <div class="market promotion-market__img">
                 <div class="grid wide ">
                     <div class="row ">
-                        <div class="col l-6 ">
+                        <div class="col l-6 m-6 c-0">
                             <img src="./asset/img/img-left.png" alt="" class="promotion-market">
                         </div>
-                        <div class="col l-6">
+                        <div class="col l-6 m-6 c-12">
                             <h1 class="market-header">
                                 We Bring Together Marketplaces & Finance
                             </h1>
@@ -200,12 +243,12 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col l-12">
+                        <div class="col l-12 m-12">
                             <h1 class="crypteem">
                                 Crypteem As Seen On
                             </h1>
                         </div>
-                        <div class="col l-12">
+                        <div class="col l-12 m-12">
                             <img src="./asset/img/logos.png" alt="" style="width: 100%;">
                         </div>
                     </div>
@@ -218,9 +261,9 @@
         <div class="fun">
             <div class="grid wide">
                 <div class="row">
-                    <div class="col l-5">
+                    <div class="col l-5 m-12 c-12">
                         <div class="row">
-                            <div class="col l-6">
+                            <div class="col l-6 m-6 c-6">
                                 <h1 class="fun-title">
                                     Fun Rised
                                 </h1>
@@ -228,7 +271,7 @@
                                     $5M
                                 </h1>
                             </div>
-                            <div class="col l-6">
+                            <div class="col l-6 m-6 c-6">
                                 <h1 class="fun-title">
                                     TOKEN DISTRIBUTED
                                 </h1>
@@ -238,7 +281,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-7">
+                    <div class="col l-7 m-12 c-12">
                         <div class="progress-bar">
                             <div class="progress-cl" value="50" max="100"></div>
                             <div class="progress-small" value="50" max="100"></div>
@@ -277,7 +320,7 @@
             <div class="grid wide">
                 <!--Our Expert Team  -->
                 <div class="row">
-                    <div class="col l-12">
+                    <div class="col l-12 m-12 c-12">
                         <h1 class="team-header">
                             Our Expert Team
                         </h1>
@@ -290,7 +333,7 @@
                 <!-- Our Expert Team pictures -->
                 <div class="row team-line">
 
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/team-4.jpg" alt="" style="width: 100%;">
@@ -305,7 +348,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/team-3.jpg" alt="" style="width: 100%;">
@@ -320,7 +363,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/team-2.jpg" alt="" style="width: 100%;">
@@ -335,7 +378,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/team-1.jpg" alt="" style="width: 100%;">
@@ -355,7 +398,7 @@
                 </div>
                 <!-- Our Advisory Team -->
                 <div class="row">
-                    <div class="col l-12">
+                    <div class="col l-12 m-12 c-12">
                         <h1 class="team-header">
                             Our Advisory Team
                         </h1>
@@ -368,7 +411,7 @@
                 <!--Our Advisory Team pictures line 1  -->
                 <div class="row ">
 
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/10-1.jpg" alt="" style="width: 100%;">
@@ -383,7 +426,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/9-1.jpg" alt="" style="width: 100%;">
@@ -398,7 +441,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/11-1.jpg" alt="" style="width: 100%;">
@@ -413,7 +456,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/8-1.jpg" alt="" style="width: 100%;">
@@ -434,7 +477,7 @@
                 <!--Our Advisory Team pictures line 2  -->
                 <div class="row ">
 
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/12-1.jpg" alt="" style="width: 100%;">
@@ -449,7 +492,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/6-1.jpg" alt="" style="width: 100%;">
@@ -464,7 +507,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/7-1.jpg" alt="" style="width: 100%;">
@@ -479,7 +522,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l-3">
+                    <div class="col l-3 m-6 c-12">
                         <div class="team-all">
                             <div class="team-row-img">
                                 <img src="./asset/img/5-1.jpg" alt="" style="width: 100%;">
@@ -505,10 +548,10 @@
                 <!-- services wrapper -->
                 <div class="services-wrapper">
                     <div class="row">
-                        <div class="col l-12">
+                        <div class="col l-12 m-12 c-12">
                             <h1 class="wrapper-header">Run Your ICO From Anywhere</h1>
                         </div>
-                        <div class="col l-12">
+                        <div class="col l-12 m-12 c-12">
                             <p class="wrapper-description">
                                 Authoritatively streamline high standards in information before standards compliant
                                 benefits. Proactively e-enable standards compliant technology without value-added
@@ -523,7 +566,7 @@
                 <div class="section-intro">
                     <!-- section line 1 -->
                     <div class="row section-row">
-                        <div class="col l-4">
+                        <div class="col l-4 m-4 c-12">
                             <div class="section-intro__img">
                                 <img src="./asset/img/1-2.png" alt="" class="">
                                 <h2 class="section-intro__img--header">Safe And Secure</h2>
@@ -534,7 +577,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col l-4">
+                        <div class="col l-4 m-4 c-12">
                             <div class="section-intro__img">
                                 <img src="./asset/img/2-1.png" alt="" class="">
                                 <h2 class="section-intro__img--header">Most Secure Wallet</h2>
@@ -545,7 +588,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col l-4">
+                        <div class="col l-4 m-4 c-12">
                             <div class="section-intro__img">
                                 <img src="./asset/img/3-2.png" alt="" class="">
                                 <h2 class="section-intro__img--header">Covered By Insurance</h2>
@@ -559,7 +602,7 @@
                     </div>
                     <!-- section line2 -->
                     <div class="row section-row">
-                        <div class="col l-4 l-o-2">
+                        <div class="col l-4 l-o-2 m-4 m-o-2 c-12">
                             <div class="section-intro__img">
                                 <img src="./asset/img/4-1.png" alt="" class="">
                                 <h2 class="section-intro__img--header">Instant Exchange</h2>
@@ -570,7 +613,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col l-4">
+                        <div class="col l-4 m-4 c-12">
                             <div class="section-intro__img">
                                 <img src="./asset/img/5-1.png" alt="" class="">
                                 <h2 class="section-intro__img--header">Recurring Buying</h2>
@@ -585,7 +628,7 @@
                     <!-- services globe -->
                     <div class="row">
                         <div class="globe-img">
-                            <div class="col l-12">
+                            <div class="col l-12 m-12 c-12">
                                 <img src="./asset/img/map-dark.png" alt="" class="services-globe-img">
                             </div>
 
@@ -598,7 +641,7 @@
         <div class="section-token-bg">
             <div class="grid wide">
                 <div class="row">
-                    <div class="col l-6">
+                    <div class="col l-6 m-12 c-12">
                         <div class="section-token">
                             <h1 class="section-token--header">Initial Token Distribution</h1>
                             <p class="section-token--description">
@@ -610,7 +653,7 @@
                             <img src="./asset/img/chart-1-dark.png" alt="" class="section-token--img">
                         </div>
                     </div>
-                    <div class="col l-6">
+                    <div class="col l-6 m-12 c-12">
                         <div class="section-token">
                             <h1 class="section-token--header">Initial Token Distribution</h1>
                             <p class="section-token--description">
@@ -628,14 +671,14 @@
         <!-- Frequently Asked Questions -->
         <div class="grid wide questions">
             <div class="row">
-                <div class="col l-6 l-o-3">
+                <div class="col l-6 l-o-3 m-12 c-12">
                     <h1 class="question-header">
                         Frequently Asked Questions
                     </h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col l-7 sub-question">
+                <div class="col l-7 sub-question m-12 c-12">
                     <p class="question-description">
                         Authoritatively streamline high standards in information before standards compliant benefits.
                         Proactively e-enable standards compliant technology without value-added internal or organic
@@ -649,7 +692,7 @@
         <div class="question-panel">
             <div class="grid wide">
                 <div class="row ">
-                    <div class="col l-8 l-o-2">
+                    <div class="col l-8 l-o-2 m-12 c-12">
                         <label for="check-panel-1" class="question-panel__full">
                             <div class="question-tab">
                                 <p>What cryptocurrencies can I use to purchase?</p>
@@ -668,7 +711,7 @@
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col l-8 l-o-2">
+                    <div class="col l-8 l-o-2 m-12 c-12">
                         <label for="check-panel-2" class="question-panel__full">
                             <div class="question-tab">
                                 <p>How do I benefit from the ICO Token?</p>
@@ -687,7 +730,7 @@
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col l-8 l-o-2">
+                    <div class="col l-8 l-o-2 m-12 c-12">
                         <label for="check-panel-3" class="question-panel__full">
                             <div class="question-tab">
                                 <p>To Keep Makeup Looking Fresh Take A Powder</p>
@@ -706,7 +749,7 @@
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col l-8 l-o-2">
+                    <div class="col l-8 l-o-2 m-12 c-12">
                         <label for="check-panel-4" class="question-panel__full">
                             <div class="question-tab">
                                 <p>What Curling Irons Are The Best Ones</p>
@@ -730,10 +773,10 @@
         <div class="trust">
             <div class="grid wide">
                 <div class="row">
-                    <div class="col l-6">
+                    <div class="col l-6 m-12 c-12">
                         <img src="./asset/img/dark-img.jpg" alt="" width="100%">
                     </div>
-                    <div class="col l-6 trust-header">
+                    <div class="col l-6 m-12 c-12 trust-header">
                         <h1>TRUST US, WE CAN HELP YOU!</h1>
                         <p>Assertively implement enabled infrastructures vis-a-vis holistic channels. Completely
                             innovate high-quality markets whereas standards compliant vortals. Seamlessly iterate
@@ -753,14 +796,14 @@
             </div>
             <div class="grid wide">
                 <div class="row">
-                    <div class="col l-12">
+                    <div class="col l-12 m-12 c-12">
                         <div class="footer-logo">
                             <img src="./asset/img/logo-white.png" alt="" class="footer-logo__img">
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col l-12">
+                    <div class="col l-12 m-12 c-12">
                         <ul class="footer-list">
                             <li class="footer-item">
                                 Copyright © 2021
@@ -778,7 +821,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col l-12">
+                    <div class="col l-12 m-12 c-12">
                         <ul class="footer-list__icon">
                             <li class="footer-item__icon" style="background-color: #3b5998;">
                                 <a href="" class="item-icon__link">
