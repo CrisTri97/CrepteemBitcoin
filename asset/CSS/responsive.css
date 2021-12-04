@@ -49,6 +49,9 @@
 
 /* Mobile */
 @media (max-width: 739px) {
+  .crypteem {
+    font-size: 1.8rem;
+  }
   
   .content {
     height: auto;
