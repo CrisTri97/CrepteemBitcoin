@@ -12,7 +12,7 @@
 .nav-bar {
   justify-content: space-between;
   align-items: baseline;
-  height: var(--nav-height) !important;
+  height: var(--nav-height);
 }
 .nav__img-logo {
   transform: translateY(50%);
